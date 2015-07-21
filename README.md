@@ -17,6 +17,8 @@ $response->isOk();
 ```
 
 [![Build Status](https://img.shields.io/travis/schimpanz/Laravel-Pushwoosh/master.svg?style=flat)](https://travis-ci.org/schimpanz/Laravel-Pushwoosh)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/schimpanz/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/schimpanz/Laravel-Pushwoosh/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/schimpanz/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/schimpanz/Laravel-Pushwoosh)
 [![Latest Version](https://img.shields.io/github/release/schimpanz/Laravel-Pushwoosh.svg?style=flat)](https://github.com/schimpanz/Laravel-Pushwoosh/releases)
 [![License](https://img.shields.io/packagist/l/schimpanz/pushwoosh.svg?style=flat)](https://packagist.org/packages/schimpanz/pushwoosh)
 
