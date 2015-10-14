@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.1 (released 2015-10-14)
+
+- Update Pushwoosh library
+
 ## 1.1.0 (released 2015-10-07)
 
 - Improved Lumen support
