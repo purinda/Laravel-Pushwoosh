@@ -6,7 +6,7 @@ Laravel [Pushwoosh](https://www.pushwoosh.com) is a [Pushwoosh](https://www.push
 
 ```php
 // Create a new notification.
-$notification = Notification::create()->setContent('Hello Jean !')
+$notification = Notification::create()->setContent('Hello Jean !');
 
 // Create a request for the '/createMessage' web service.
 $request = CreateMessageRequest::create()->addNotification($notification);
