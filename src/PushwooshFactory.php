@@ -11,8 +11,8 @@
 
 namespace Schimpanz\Pushwoosh;
 
-use InvalidArgumentException;
 use Gomoob\Pushwoosh\Client\Pushwoosh;
+use InvalidArgumentException;
 
 /**
  * This is the Pushwoosh factory class.
