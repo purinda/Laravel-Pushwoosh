@@ -11,6 +11,7 @@
 
 namespace Schimpanz\Pushwoosh;
 
+use InvalidArgumentException;
 use Gomoob\Pushwoosh\Client\Pushwoosh;
 
 /**
@@ -49,7 +50,7 @@ class PushwooshFactory
 
         foreach ($keys as $key) {
             if (!array_key_exists($key, $config)) {
-                throw new \InvalidArgumentException('The Pushwoosh client requires configuration.');
+                throw new InvalidArgumentException("Missing configuration key [$key].");
             }
         }
 
