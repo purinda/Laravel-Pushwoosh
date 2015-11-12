@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.2.0 (upcoming)
+
+- Laravel 5.2 support
+
 ## 1.1.1 (released 2015-10-14)
 
 - Update Pushwoosh library
