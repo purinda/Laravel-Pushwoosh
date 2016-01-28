@@ -3,13 +3,13 @@
 /*
  * This file is part of Laravel Pushwoosh.
  *
- * (c) Schimpanz Solutions AB <info@schimpanz.com>
+ * (c) HOY Multimedia AB <info@hoy.se>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Schimpanz\Pushwoosh;
+namespace Hoy\Pushwoosh;
 
 use Gomoob\Pushwoosh\Client\Pushwoosh;
 use Illuminate\Contracts\Container\Container as Application;
@@ -20,7 +20,7 @@ use Laravel\Lumen\Application as LumenApplication;
 /**
  * This is the Pushwoosh service provider class.
  *
- * @author Vincent Klaiber <vincent@schimpanz.com>
+ * @author Vincent Klaiber <vincent@hoy.se>
  */
 class PushwooshServiceProvider extends ServiceProvider
 {

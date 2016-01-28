@@ -3,23 +3,23 @@
 /*
  * This file is part of Laravel Pushwoosh.
  *
- * (c) Schimpanz Solutions AB <info@schimpanz.com>
+ * (c) HOY Multimedia AB <info@hoy.se>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Schimpanz\Tests\Pushwoosh;
+namespace Hoy\Tests\Pushwoosh;
 
 use Gomoob\Pushwoosh\Client\Pushwoosh;
 use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
-use Schimpanz\Pushwoosh\PushwooshFactory;
-use Schimpanz\Pushwoosh\PushwooshManager;
+use Hoy\Pushwoosh\PushwooshFactory;
+use Hoy\Pushwoosh\PushwooshManager;
 
 /**
  * This is the service provider test class.
  *
- * @author Vincent Klaiber <vincent@schimpanz.com>
+ * @author Vincent Klaiber <vincent@hoy.se>
  */
 class ServiceProviderTest extends AbstractTestCase
 {

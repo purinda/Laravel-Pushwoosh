@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.0 (released 2016-01-28)
+
+- Moved to new namespace
+
 ## 1.2.1 (released 2016-01-17)
 
 - Lumen 5.2 support

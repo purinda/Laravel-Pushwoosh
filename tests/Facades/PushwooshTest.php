@@ -3,23 +3,23 @@
 /*
  * This file is part of Laravel Pushwoosh.
  *
- * (c) Schimpanz Solutions AB <info@schimpanz.com>
+ * (c) HOY Multimedia AB <info@hoy.se>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Schimpanz\Tests\Pushwoosh\Facades;
+namespace Hoy\Tests\Pushwoosh\Facades;
 
 use GrahamCampbell\TestBenchCore\FacadeTrait;
-use Schimpanz\Pushwoosh\Facades\Pushwoosh;
-use Schimpanz\Pushwoosh\PushwooshManager;
-use Schimpanz\Tests\Pushwoosh\AbstractTestCase;
+use Hoy\Pushwoosh\Facades\Pushwoosh;
+use Hoy\Pushwoosh\PushwooshManager;
+use Hoy\Tests\Pushwoosh\AbstractTestCase;
 
 /**
  * This is the Pushwoosh facade test class.
  *
- * @author Vincent Klaiber <vincent@schimpanz.com>
+ * @author Vincent Klaiber <vincent@hoy.se>
  */
 class PushwooshTest extends AbstractTestCase
 {

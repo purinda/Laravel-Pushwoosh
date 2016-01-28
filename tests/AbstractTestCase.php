@@ -3,21 +3,21 @@
 /*
  * This file is part of Laravel Pushwoosh.
  *
- * (c) Schimpanz Solutions AB <info@schimpanz.com>
+ * (c) HOY Multimedia AB <info@hoy.se>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Schimpanz\Tests\Pushwoosh;
+namespace Hoy\Tests\Pushwoosh;
 
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
-use Schimpanz\Pushwoosh\PushwooshServiceProvider;
+use Hoy\Pushwoosh\PushwooshServiceProvider;
 
 /**
  * This is the abstract test class.
  *
- * @author Vincent Klaiber <vincent@schimpanz.com>
+ * @author Vincent Klaiber <vincent@hoy.se>
  */
 abstract class AbstractTestCase extends AbstractPackageTestCase
 {

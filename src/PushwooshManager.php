@@ -3,13 +3,13 @@
 /*
  * This file is part of Laravel Pushwoosh.
  *
- * (c) Schimpanz Solutions AB <info@schimpanz.com>
+ * (c) HOY Multimedia AB <info@hoy.se>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Schimpanz\Pushwoosh;
+namespace Hoy\Pushwoosh;
 
 use GrahamCampbell\Manager\AbstractManager;
 use Illuminate\Contracts\Config\Repository;
@@ -17,14 +17,14 @@ use Illuminate\Contracts\Config\Repository;
 /**
  * This is the Pushwoosh manager class.
  *
- * @author Vincent Klaiber <vincent@schimpanz.com>
+ * @author Vincent Klaiber <vincent@hoy.se>
  */
 class PushwooshManager extends AbstractManager
 {
     /**
      * The factory instance.
      *
-     * @var \Schimpanz\Pushwoosh\PushwooshFactory
+     * @var \Hoy\Pushwoosh\PushwooshFactory
      */
     private $factory;
 
@@ -32,7 +32,7 @@ class PushwooshManager extends AbstractManager
      * Create a new Pushwoosh manager instance.
      *
      * @param \Illuminate\Contracts\Config\Repository $config
-     * @param \Schimpanz\Pushwoosh\PushwooshFactory         $factory
+     * @param \Hoy\Pushwoosh\PushwooshFactory         $factory
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class PushwooshManager extends AbstractManager
     /**
      * Get the factory instance.
      *
-     * @return \Schimpanz\Pushwoosh\PushwooshFactory
+     * @return \Hoy\Pushwoosh\PushwooshFactory
      */
     public function getFactory()
     {

@@ -1,12 +1,12 @@
 {
-    "name": "schimpanz/pushwoosh",
+    "name": "hoy/pushwoosh",
     "description": "A Pushwoosh bridge for Laravel",
     "license": "MIT",
-    "keywords": ["pushwoosh", "push", "notification", "schimpanz", "laravel"],
+    "keywords": ["pushwoosh", "push", "notification", "hoy", "laravel"],
     "authors": [
         {
             "name": "Vincent Klaiber",
-            "email": "vincent@schimpanz.com"
+            "email": "vincent@hoy.se"
         }
     ],
     "require": {
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Schimpanz\\Pushwoosh\\": "src/"
+            "Hoy\\Pushwoosh\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Schimpanz\\Tests\\Pushwoosh\\": "tests/"
+            "Hoy\\Tests\\Pushwoosh\\": "tests/"
         }
     },
     "config": {
