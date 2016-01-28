@@ -18,17 +18,17 @@ $response = $pushwoosh->createMessage($request);
 $response->isOk();
 ```
 
-[![Build Status](https://img.shields.io/travis/schimpanz/Laravel-Pushwoosh/master.svg?style=flat)](https://travis-ci.org/schimpanz/Laravel-Pushwoosh)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/schimpanz/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/schimpanz/Laravel-Pushwoosh/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/schimpanz/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/schimpanz/Laravel-Pushwoosh)
-[![Latest Version](https://img.shields.io/github/release/schimpanz/Laravel-Pushwoosh.svg?style=flat)](https://github.com/schimpanz/Laravel-Pushwoosh/releases)
-[![License](https://img.shields.io/packagist/l/schimpanz/pushwoosh.svg?style=flat)](https://packagist.org/packages/schimpanz/pushwoosh)
+[![Build Status](https://img.shields.io/travis/hoy/Laravel-Pushwoosh/master.svg?style=flat)](https://travis-ci.org/hoy/Laravel-Pushwoosh)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/hoy/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/hoy/Laravel-Pushwoosh/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/hoy/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/hoy/Laravel-Pushwoosh)
+[![Latest Version](https://img.shields.io/github/release/hoy/Laravel-Pushwoosh.svg?style=flat)](https://github.com/hoy/Laravel-Pushwoosh/releases)
+[![License](https://img.shields.io/packagist/l/hoy/pushwoosh.svg?style=flat)](https://packagist.org/packages/hoy/pushwoosh)
 
 ## Installation
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ```bash
-composer require schimpanz/pushwoosh
+composer require hoy/pushwoosh
 ```
 
 Add the service provider to `config/app.php` in the `providers` array.
