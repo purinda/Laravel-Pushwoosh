@@ -13,10 +13,10 @@ namespace Hoy\Tests\Pushwoosh;
 
 use Gomoob\Pushwoosh\Client\Pushwoosh;
 use GrahamCampbell\TestBench\AbstractTestCase as AbstractTestBenchTestCase;
-use Illuminate\Contracts\Config\Repository;
-use Mockery;
 use Hoy\Pushwoosh\PushwooshFactory;
 use Hoy\Pushwoosh\PushwooshManager;
+use Illuminate\Contracts\Config\Repository;
+use Mockery;
 
 /**
  * This is the Pushwoosh manager test class.
