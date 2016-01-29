@@ -18,10 +18,10 @@ $response = $pushwoosh->createMessage($request);
 $response->isOk();
 ```
 
-[![Build Status](https://img.shields.io/travis/hoy/Laravel-Pushwoosh/master.svg?style=flat)](https://travis-ci.org/hoy/Laravel-Pushwoosh)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/hoy/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/hoy/Laravel-Pushwoosh/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/hoy/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/hoy/Laravel-Pushwoosh)
-[![Latest Version](https://img.shields.io/github/release/hoy/Laravel-Pushwoosh.svg?style=flat)](https://github.com/hoy/Laravel-Pushwoosh/releases)
+[![Build Status](https://img.shields.io/travis/hoymultimedia/Laravel-Pushwoosh/master.svg?style=flat)](https://travis-ci.org/hoymultimedia/Laravel-Pushwoosh)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/hoymultimedia/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/hoymultimedia/Laravel-Pushwoosh/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/hoymultimedia/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/hoymultimedia/Laravel-Pushwoosh)
+[![Latest Version](https://img.shields.io/github/release/hoymultimedia/Laravel-Pushwoosh.svg?style=flat)](https://github.com/hoymultimedia/Laravel-Pushwoosh/releases)
 [![License](https://img.shields.io/packagist/l/hoy/pushwoosh.svg?style=flat)](https://packagist.org/packages/hoy/pushwoosh)
 
 ## Installation
