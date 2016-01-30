@@ -12,7 +12,7 @@
 namespace Hoy\Pushwoosh;
 
 use Gomoob\Pushwoosh\Client\Pushwoosh;
-use Illuminate\Contracts\Container\Container as Application;
+use Illuminate\Contracts\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
@@ -59,62 +59,56 @@ class PushwooshServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->registerFactory($this->app);
-        $this->registerManager($this->app);
-        $this->registerBindings($this->app);
+        $this->registerFactory();
+        $this->registerManager();
+        $this->registerBindings();
     }
 
     /**
      * Register the factory class.
      *
-     * @param \Illuminate\Contracts\Container\Container $app
-     *
      * @return void
      */
-    protected function registerFactory(Application $app)
+    protected function registerFactory()
     {
-        $app->singleton('pushwoosh.factory', function () {
+        $this->app->singleton('pushwoosh.factory', function () {
             return new PushwooshFactory();
         });
 
-        $app->alias('pushwoosh.factory', PushwooshFactory::class);
+        $this->app->alias('pushwoosh.factory', PushwooshFactory::class);
     }
 
     /**
      * Register the manager class.
      *
-     * @param \Illuminate\Contracts\Container\Container $app
-     *
      * @return void
      */
-    protected function registerManager(Application $app)
+    protected function registerManager()
     {
-        $app->singleton('pushwoosh', function ($app) {
+        $this->app->singleton('pushwoosh', function (Container $app) {
             $config = $app['config'];
             $factory = $app['pushwoosh.factory'];
 
             return new PushwooshManager($config, $factory);
         });
 
-        $app->alias('pushwoosh', PushwooshManager::class);
+        $this->app->alias('pushwoosh', PushwooshManager::class);
     }
 
     /**
      * Register the bindings.
      *
-     * @param \Illuminate\Contracts\Container\Container $app
-     *
      * @return void
      */
-    protected function registerBindings(Application $app)
+    protected function registerBindings()
     {
-        $app->bind('pushwoosh.connection', function ($app) {
+        $this->app->bind('pushwoosh.connection', function (Container $app) {
             $manager = $app['pushwoosh'];
 
             return $manager->connection();
         });
 
-        $app->alias('pushwoosh.connection', Pushwoosh::class);
+        $this->app->alias('pushwoosh.connection', Pushwoosh::class);
     }
 
     /**

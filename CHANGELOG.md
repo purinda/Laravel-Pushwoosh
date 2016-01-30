@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.1 (released 2016-01-30)
+
+- Improved service provider
+
 ## 2.0.0 (released 2016-01-28)
 
 - Moved to new namespace
