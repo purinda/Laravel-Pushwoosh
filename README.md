@@ -1,6 +1,6 @@
 # Laravel Pushwoosh
 
-![pushwoosh](https://cloud.githubusercontent.com/assets/499192/8821146/a92e1c3a-305b-11e5-86d2-4f57c572e7d1.png)
+![pushwoosh](https://cloud.githubusercontent.com/assets/499192/12697005/8eb625dc-c778-11e5-9041-3f4bdee8cb06.png)
 
 Laravel [Pushwoosh](https://www.pushwoosh.com) is a [Pushwoosh](https://www.pushwoosh.com) bridge for Laravel using the [Gomoob's](https://github.com/gomoob) [Pushwoosh package](https://github.com/gomoob/php-pushwoosh).
 
