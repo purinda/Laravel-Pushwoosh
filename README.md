@@ -19,6 +19,7 @@ $response->isOk();
 ```
 
 [![Build Status](https://img.shields.io/travis/hoymultimedia/Laravel-Pushwoosh/master.svg?style=flat)](https://travis-ci.org/hoymultimedia/Laravel-Pushwoosh)
+[![StyleCI](https://styleci.io/repos/34845881/shield?style=flat)](https://styleci.io/repos/34845881)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/hoymultimedia/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/hoymultimedia/Laravel-Pushwoosh/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/hoymultimedia/Laravel-Pushwoosh.svg?style=flat)](https://scrutinizer-ci.com/g/hoymultimedia/Laravel-Pushwoosh)
 [![Latest Version](https://img.shields.io/github/release/hoymultimedia/Laravel-Pushwoosh.svg?style=flat)](https://github.com/hoymultimedia/Laravel-Pushwoosh/releases)
